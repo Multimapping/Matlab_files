@@ -121,7 +121,7 @@ k0_ind(10) = 3+k0_ind1;
 % T1 and T2.
 
 T1_step = 100;
-T2_step = 20;
+T2_step = 30;
 B1_step = 0.05;
 
 T1_start = 1000;
@@ -129,7 +129,7 @@ T2_start = 40;
 B1_start = 0.5;
 
 T1_end = 1500;
-T2_end = 100;
+T2_end = 140;
 B1_end = 1.0;
 
 T1list=T1_start:T1_step:T1_end;
@@ -269,13 +269,13 @@ alphas(6,:) = d2r([ss 0 NaN NaN NaN]);
 alphas(7,:) = d2r([ss 0 NaN NaN NaN]);
    
 T1_step = 1;
-T2_step = 20;
+T2_step = 30;
 
 T1_start = 200;
 T2_start = 20;
 
-T1list=T1_start:T1_step:2000;
-T2list=T2_start:T2_step:140;
+T1list=T1_start:T1_step:2500;
+T2list=T2_start:T2_step:150;
 T1_l = length(T1list);
 T2_l = length(T2list);
 
@@ -366,7 +366,7 @@ T2_step = 1;
 T1_start = 200;
 T2_start = 1;
 
-T1list=T1_start:T1_step:2000;
+T1list=T1_start:T1_step:2500;
 T2list=T2_start:T2_step:150;
 T1_l = length(T1list);
 T2_l = length(T2list);
