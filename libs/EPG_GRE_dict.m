@@ -41,6 +41,7 @@ function [F0,Fn,Zn] = EPG_GRE_dict(theta,phi,TR,T1,T2,Delay_dur,prepulse_delays,
 %
 %
 %   Shaihan Malik 2017-07-20
+%   Edited by Markus Henningsson for Multimapping
 
 
 %% Extra variables
