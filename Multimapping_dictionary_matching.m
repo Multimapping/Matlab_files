@@ -56,7 +56,7 @@ inv_rf = 160;
 fa = info.FlipAngle;
 n_ex = info.EchoTrainLength;
 
-npulse = n_ex + nr_startups + 4; %maximum number of EPG entries for a cardiac cycle. 4 = no RF in T2prep + trigger delay
+npulse = n_ex + nr_startups + 4; %maximum number of EPG entries for a cardiac cycle. 4 = nr RF in T2prep + trigger delay
 
 TR= info.RepetitionTime;
 
