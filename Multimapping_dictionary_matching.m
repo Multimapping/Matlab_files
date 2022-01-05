@@ -17,8 +17,11 @@
 % 
 %  Example images from one healthy volunteer are provided, including
 %  necessary imaging parameters and subject-specific delays.
-%  The dictionary matching is based on EPG simulations implemented by Dr
-%  Shaihan Malik and have been modified for this work.
+%  The dictionary matching is based on EPG simulations originally implemented by Dr
+%  Shaihan Malik and have been modified by Markus Henningsson for this work. 
+%  For more detailed description of the pulse sequence see Henningsson 
+%  "Cartesian dictionary-based native T1 and T2 mapping of the myocardium"
+%  https://doi.org/10.1002/mrm.29143.
 % 
 % The scripts are implemented on Matlab R2020b using the Image processing and
 % Parallel computing toolboxes
